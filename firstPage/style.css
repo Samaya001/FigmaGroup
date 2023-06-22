@@ -1,0 +1,511 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+header{
+    display: flex;
+    justify-content: space-around;
+    width: 1300px;
+    padding-top: 30px;
+}
+.name{
+    font-weight: 600;
+    font-size: 24px;
+    font-family: 'Euclid Circular A';
+   padding-top: 10px;
+   padding-left: 10px;
+}
+.name-image{
+    display: flex;
+}
+.nav-list{
+    display: flex;
+    gap: 30px;
+    padding-top: 10px;
+}
+.nav-list li{
+    list-style-type: none;
+}
+.nav-list li a{
+    text-decoration: none;
+    color: #222B45;
+    font-size: 16px;
+    font-family: 'Euclid Circular A';
+    font-weight: 600;
+}
+.header-try{
+   display: flex;
+   gap: 30px;
+}
+.button1{
+    width: 113px;
+    height: 40px;
+    border-radius: 8px;
+    border: 1px solid gray;
+}
+.demo{
+    border: none;
+    background-color: transparent;
+    padding-top: 10px;
+    padding-left: 25px;
+}
+.button2{
+    height: 40px;
+    width: 155px;
+    background-color:#FF3D71;
+    border-radius: 8px;
+}
+.buy{
+    background-color:transparent;
+    border: none;
+    color: white;
+    font-weight: 400;
+    padding-top: 10px;
+    padding-left: 30px;
+}
+.icon{
+    padding-top:8px ;
+}
+.textname{
+    display: flex;
+    height: 144px;
+    padding-left: 100px;
+    padding-top: 50px;
+}
+.pinktext{
+    color: #FF3D71;
+    font-size: 50px;
+
+}
+.bluetext{
+    color:#222B45;
+    font-size: 50px;
+}
+.maintext{
+    width: 1000px;
+    height: 48px;
+    color: #8F9BB3;
+    margin: 0 auto;
+    
+}
+.buttons{
+    display: flex;
+    padding-left: 500px;
+    padding-top: 100px;
+    gap: 4px;
+}
+.buttonblue{
+    width: 199px;
+    height: 48px;
+    border-radius: 8px;
+    background-color: #0095FF;
+
+}
+.blue1{
+    color: white;
+    background-color: transparent;
+    border: none;
+    padding-left: 50px;
+    padding-top: 15px;
+}
+.buttonwhite{
+    width: 199px;
+    height: 48px;
+    border-radius: 8px;
+    border: 1px solid #0095FF;
+}
+.white{
+    color: #0095FF;
+    background-color: transparent;
+    border: none;
+    padding-left: 50px;
+    padding-top: 15px;
+}
+.centerimage img{
+    padding-left: 270px;
+    padding-top: 40px;
+    position: absolute;
+}
+.imagerectangular img{
+    padding-top: 560px;
+    width: 1349px;
+}
+.textblue{
+    color: #0095FF;
+    font-size: 20px;
+}
+.textwhite{
+    width: 384px;
+    font-size: 34px;
+    color:#2E3A59;
+}
+
+
+.benefittext{
+    padding-top: 100px;
+    padding-left: 112px;
+}
+.h2text{
+    padding-top: 30px;
+}
+.ptext{
+    padding-top: 30px;
+    width: 300px;
+}
+.benefitimage{
+    display: flex;
+}
+.todolist{
+    padding-left: 350px;
+    padding-top: 100px;
+}
+.threeimage{
+    display: flex;
+    justify-content: space-around;
+    padding-top: 250px;
+   
+}
+.threeimage h6{
+    font-size: 20px;
+    padding-top: 40px;
+    padding-left: 70px;
+}
+.threeimage img{
+    padding-left: 110px;
+}
+.timetext{
+    width: 368px;
+    font-size: 14px;
+    color:#2E3A59;
+    padding-top: 20px;
+}
+.seotext{
+    width: 232px;
+    font-size: 14px;
+    color:#2E3A59;
+    padding-top: 20px;
+}
+.visitorstext{
+    width: 232px;
+    font-size: 14px;
+    color:#2E3A59;
+    padding-top: 20px;
+}
+.threeimages2{
+    display: flex;
+    justify-content: space-around;
+    padding-top: 150px
+}
+.threeimages2 img{
+    padding-left: 140px;
+
+}
+.threeimages2 h6{
+    font-size: 20px;
+    padding-top: 40px;
+    padding-left: 70px;
+}
+.socialtext{
+    width: 300px;
+    font-size: 14px;
+    color: #222B45;
+    padding-top: 20px;
+    padding-left: 100px;
+}
+.phonecalltext{
+    width: 478px;
+    font-size: 14px;
+    color: #222B45;
+    padding-top: 20px;
+    padding-left: 150px;
+}
+.kplstext{
+    width: 438px;
+    font-size: 14px;
+    color: #222B45;
+    padding-top: 20px;
+    padding-left: 50px;
+}
+.meauserimage {
+    padding-left: 80px;
+}
+.phoneimage{
+    padding-left: 160px;
+}
+.phonecall{
+    padding-left: 160px;
+}
+.kpls{
+    padding-left: 90px;
+}
+.background-pink-container{
+    width: 1349px;
+    height: 944px;
+    background-color: #FFD6D9;
+    margin-top: 150px;
+}
+.container-FS{
+    display: flex;
+    padding-left: 100px;
+    padding-top: 100px;
+    gap: 200px;
+}
+    
+.FsPoster h4{
+    font-size: 40px;
+}
+.button-try{
+    width: 199px;
+    height: 48px;
+    background-color: #0095FF;
+    border-radius: 8px;
+   
+}
+.tryblue{
+    border: none;
+    background-color: transparent;
+    color: white;
+    padding-left: 40px;
+    padding-top: 15px;
+}
+.FsPoster p{
+    font-size: 16px;
+    padding-top: 30px;
+    width: 488px;
+}
+.iconbuttons{
+    display: flex;
+gap: 40px;
+margin-left: 40px;
+margin-top: 60px;
+}
+
+
+
+
+.facebookbutton{
+    width: 280px;
+    height: 112px;
+    border-radius: 16px;
+    background-color: white;
+    display: flex;
+    padding: 20px;
+    gap: 10px;
+}
+
+.facebooktext h6{
+    font-size: 20px;
+
+}
+.facebooktext p{
+font-size: 12px;
+width: 134px;
+}
+.pinterestbutton{
+    width: 280px;
+    height: 112px;
+    border-radius: 16px;
+    background-color: white;
+    display: flex;
+    padding: 20px;
+    gap: 10px;
+    margin-top:40px ;
+}
+.pinteresttext h6{
+    font-size: 20px;
+}
+.pinteresttext{
+    font-size: 12px;
+}
+.tumbirbutton{
+    width: 280px;
+    height: 112px;
+    border-radius: 16px;
+    background-color: white;
+    display: flex;
+    padding: 20px;
+    gap: 10px;
+    margin-top: 40px;
+}
+.tumbirtext h6{
+    font-size: 20px;
+}
+.tumbirtext p{
+    font-size: 12px;
+}
+.wordpressbutton{
+    width: 280px;
+    height: 112px;
+    border-radius: 16px;
+    background-color: white;
+    display: flex;
+    padding: 20px;
+    gap: 10px;
+    margin-top: 40px;
+}
+.wordtext h6{
+    font-size:20px;
+}
+.wordtext p{
+font-size: 12px;
+}
+.fa-brands{
+font-size: 50px;
+}
+.twiterbutton{
+    width: 280px;
+    height: 112px;
+    border-radius: 16px;
+    background-color: white;
+    display: flex;
+    padding: 20px;
+    gap: 10px;
+}
+.twittext h6{
+font-size: 20px;
+}
+.twittext p{
+font-size: 12px;
+}
+.googlebutton{
+    width: 280px;
+    height: 112px;
+    border-radius: 16px;
+    background-color: white;
+    display: flex;
+    padding: 20px;
+    gap: 10px;
+    margin-top: 40px;
+}
+.googletext h6{
+    font-size: 20px;
+}
+.googletext p{
+    font-size: 12px;
+}
+.medium{
+    width: 280px;
+    height: 112px;
+    border-radius: 16px;
+    background-color: white;
+    display: flex;
+    padding: 20px;
+    gap: 10px;
+    margin-top: 40px; 
+}
+.mediumtext h6{
+    font-size: 20px;
+}
+.mediumtext p{
+    font-size: 12px;
+}
+.plurk{
+    width: 280px;
+    height: 112px;
+    border-radius: 16px;
+    background-color: white;
+    display: flex;
+    padding: 20px;
+    gap: 10px;
+    margin-top: 40px;
+}
+.plurktext h6{
+    font-size: 20px;
+}
+.plurktext p{
+    font-size: 12px;
+}
+.instagrambutton{
+    width: 280px;
+    height: 112px;
+    border-radius: 16px;
+    background-color: white;
+    display: flex;
+    padding: 20px;
+    gap: 10px;
+}
+.instatext h6{
+    font-size: 20px;
+}
+.instatext p{
+    font-size: 12px;
+}
+.telegrambutton{
+    width: 280px;
+    height: 112px;
+    border-radius: 16px;
+    background-color: white;
+    display: flex;
+    padding: 20px;
+    gap: 10px;
+    margin-top: 40px;
+}
+.telegramtex h6{
+    font-size: 20px;
+}
+.telegramtex p{
+    font-size: 12px;
+}
+.vkbutton{
+    width: 280px;
+    height: 112px;
+    border-radius: 16px;
+    background-color: white;
+    display: flex;
+    padding: 20px;
+    gap: 10px;
+    margin-top: 40px;
+}
+.vktext h6{
+    font-size: 20px;
+}
+.vktext p{
+    font-size: 12px;
+}
+.linkedinbutton{
+    width: 280px;
+    height: 112px;
+    border-radius: 16px;
+    background-color: white;
+    display: flex;
+    padding: 20px;
+    gap: 10px;
+}
+.linkedintext h6{
+font-size: 20px;
+}
+.linkedintext p{
+    font-size: 12px;
+}
+.redditbutton{
+    width: 280px;
+    height: 112px;
+    border-radius: 16px;
+    background-color: white;
+    display: flex;
+    padding: 20px;
+    gap: 10px;
+    margin-top: 40px;
+}
+.reddittext h6{
+    font-size: 20px;
+}
+.reddittext p{
+    font-size: 12px;
+}
+.okrubutton{
+    width: 280px;
+    height: 112px;
+    border-radius: 16px;
+    background-color: white;
+    display: flex;
+    padding: 20px;
+    gap: 10px;
+    margin-top: 40px;
+}
+.okrutext h6{
+    font-size: 20px;
+}.okrutext p{
+    font-size: 12px;
+}
